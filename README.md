@@ -35,7 +35,30 @@ Azure Virtual Desktop is widely used for:
 This project shows practical, hands-on experience beyond theory.
 
 ## Screenshots
-Screenshots of the deployment and login flow can be found in the `/screenshots` folder.
+
+### 1. Host Pool Overview
+AVD Host Pool (Pooled) with session host configuration.
+![Host Pool Overview](screenshots/01-hostpool-overview.png)
+
+### 2. Session Host Virtual Machine
+Deployed Windows 11 Enterprise multi-session VM acting as session host.
+![Session Host VM](screenshots/02-session-host-vm.png)
+
+### 3. Application Group (Desktop)
+Desktop Application Group linked to the host pool.
+![Application Group](screenshots/03-app-group-overview.png)
+
+### 4. Application Group – User Assignment
+Microsoft Entra ID group assigned to the Desktop Application Group.
+![Application Group Assignment](screenshots/03b-app-group-assignments.png)
+
+### 5. Workspace
+Workspace used to publish the desktop to end users.
+![Workspace](screenshots/04-workspace.png)
+
+### 6. Successful User Login
+Successful login to Azure Virtual Desktop using Windows App (web).
+![Successful Login](screenshots/05-successful-login.png)
 
 ## Status
 ✔ Deployment completed  
